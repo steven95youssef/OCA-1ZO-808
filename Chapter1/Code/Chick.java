@@ -8,5 +8,9 @@ public class Chick {
   public static void main (String args[]){
     Chick chick = new Chick();
     System.out.println(chick.name);
+    String name_ = "String";
+    System.out.println(name_);
+    String name9="Hello";
+    System.out.println(name9);
   }
 }
