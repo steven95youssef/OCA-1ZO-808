@@ -107,9 +107,5 @@ public class examples {
     LocalTime time = LocalTime.of(11,12,34);
     LocalDateTime dateTime = LocalDateTime.of(date,time);
 
-    System.out.println(date.format(DateTimeFormatter.ISO_LOCAL_DATE));
-    System.out.println(time.format(DateTimeFormatter.ISO_LOCAL_TIME));
-    System.out.println(dateTime.format(DateTimeFormatter.ISO_LOCAL_DATE_TIME));
-
   }
 }
